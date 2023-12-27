@@ -1,0 +1,9 @@
+langchain
+langchain_experimental
+langchain_core
+google-generativeai==0.3.1
+google-ai-generativelanguage==0.4.0
+langchain-google-genai
+langchain[docarray]
+streamlit
+streamlit_chat
