@@ -7,3 +7,4 @@ langchain-google-genai
 langchain[docarray]
 streamlit
 streamlit_chat
+transformers
