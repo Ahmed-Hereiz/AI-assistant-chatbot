@@ -12,9 +12,7 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationSummaryBufferMemory
 from langchain.prompts.prompt import PromptTemplate
 
-headers = {
-    "authorization":st.secrets["API_KEY"]
-}
+os.environ['API_KEY'] = st.secrets['API_KEY']
 
 template = """You are a Scienctist that spechializes in earthquakes and natural disasters \
 and you are also a helpful friend that talks with people and help them \
