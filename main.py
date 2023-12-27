@@ -79,4 +79,4 @@ def main(api_key,template):
             message(msg.content, is_user=False, key=str(i) + '_ai')
 
 if __name__ == '__main__':
-    main(api_key=api_key,template=template)
+    main(api_key=os.environ['API_KEY'],template=template)
